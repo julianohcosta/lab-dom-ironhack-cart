@@ -31,9 +31,7 @@ function calculateAll() {
 // ITERATION 4
 
 function removeProduct(event) {
-  const target = event.currentTarget;
-  const tr = target.parentNode.parentNode
-  target.parentNode.parentNode.parentNode.removeChild(tr);
+  event.target.parentElement.parentElement.remove()
 }
 
 // ITERATION 5
